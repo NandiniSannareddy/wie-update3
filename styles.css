@@ -1,0 +1,560 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+
+.main-header {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+ .nbkrist-wie {
+    display: flex;
+    align-items: center;
+    background: #323C7D;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+
+ .nbkrist-wie .logo img {
+    width: 150px;
+    height: auto;
+    border-radius:50%;
+    margin-right: 30px;
+    animation: slideInLeft 1.5s ease-in-out;
+    border: 5px solid #00509e;
+}
+
+ .nbkrist-wie .content {
+    max-width: 600px;
+    color:white;
+}
+ .about-wie   .content{
+       color:white;
+ }
+.about-wie {
+    display: flex;
+    align-items: center;
+    background: #323C7D;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 15px;
+   
+    animation: fadeIn 2s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-wie:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.about-wie .logo img {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    margin-right: 30px;
+    animation: slideInLeft 1.5s ease-in-out;
+    transition: transform 0.3s ease;
+    border: 5px solid #00509e;
+}
+
+.about-wie .logo img:hover {
+    transform: rotate(-10deg);
+}
+
+.about-wie .content {
+    max-width: 600px;
+}
+
+.about-wie .content h2 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.about-wie .content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background: #323C7D;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.cards-section .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 90%;
+    animation: slideInUp 1s ease-in-out;
+    color: white;
+   background-color: rgba(255, 255, 255, 0.2);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    background-size: 200% 200%;
+    animation: gradientBG 3s ease infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards-section .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.cards-section .card h3 {
+    margin-bottom: 15px;
+}
+
+.cards-section .card-content {
+    max-height: 80px; /* Limits the height of the content */
+    overflow: hidden; /* Hides the overflowing content */
+    transition: max-height 0.5s ease;
+}
+
+.cards-section .card-content.expanded {
+    max-height: 500px; /* Adjust as needed */
+}
+
+.cards-section .read-more {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.cards-section .read-more:hover {
+    background: orange;
+}
+
+.card .mission {
+    background: linear-gradient(45deg, #00509e, #1e90ff);
+    background-size: 200% 200%;
+    animation: gradientBG 3s ease infinite;
+}
+
+.card .vision {
+    background: linear-gradient(45deg, #1e90ff, #87cefa);
+    background-size: 200% 200%;
+    animation: gradientBG 3s ease infinite;
+}
+
+.card     .goal {
+    background: linear-gradient(45deg, #00bfff, #87cefa);
+    background-size: 200% 200%;
+    animation: gradientBG 3s ease infinite;
+}
+
+.card .strives {
+    background: linear-gradient(45deg, #87cefa, #00bfff);
+    background-size: 200% 200%;
+    animation: gradientBG 3s ease infinite;
+}
+
+
+
+
+.panel-section {
+    background: #323C7D;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+
+}
+
+.panel-section .panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-section .counselor {
+    margin-bottom: 20px;
+    animation: slideInDown 1.5s ease-in-out;
+    padding: 20px;
+    background: #e3f2fd;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width:200px;
+}
+
+.panel-section .counselor-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 5px solid #00509e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.panel-section .counselor-photo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.panel-section .counselor h3 , .panel-section .counselor p{
+    color: #00509e;
+}
+
+
+.panel-section .team {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color:white;
+}
+
+.panel-section .team .member {
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+     background-color: rgba(255, 255, 255, 0.2);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    
+    margin: 10px;
+    padding: 20px;
+    width: calc(25% - 40px);
+    animation: slideInUp 1.5s ease-in-out;
+     text-align: center;
+}
+
+.panel-section .member-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slideInUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes slideInDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+
+
+section {
+    padding: 100px 200px;
+}
+
+
+/* Media Query for responsiveness */
+@media (max-width: 1024px) and  (min-width: 900px) {
+    .about-wie, .nbkrist-wie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-wie .logo img, .nbkrist-wie .logo img {
+        margin: 0 auto 20px;
+    }
+
+    .about-wie .content, .nbkrist-wie .content {
+        max-width: 100%;
+    }
+    section {
+    padding: 100px 150px;
+
+   }
+   .panel-section .team .member{
+    width:100%;
+   }
+  
+}
+
+
+@media (max-width: 899px) and  (min-width: 700px) {
+    .about-wie, .nbkrist-wie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-wie .logo img, .nbkrist-wie .logo img {
+        margin: 0 auto 20px;
+    }
+
+    .about-wie .content, .nbkrist-wie .content {
+        max-width: 100%;
+    }
+    section {
+    padding: 100px 100px;
+
+   }
+   .panel-section .team .member{
+    width:100%;
+   }
+ 
+}
+
+@media (max-width: 699px) and  (min-width: 600px) {
+    .about-wie, .nbkrist-wie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-wie .logo img, .nbkrist-wie .logo img {
+        margin: 0 auto 20px;
+    }
+
+    .about-wie .content, .nbkrist-wie .content {
+        max-width: 100%;
+    }
+    section {
+    padding: 100px 60px;
+
+   }
+   .panel-section .team .member{
+    width:100%;
+   }
+   .main-header {
+    padding: 30px 0;
+}
+
+
+}
+
+@media (max-width: 599px) and  (min-width: 400px) {
+    .about-wie, .nbkrist-wie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-wie .logo img, .nbkrist-wie .logo img {
+        margin: 0 auto 20px;
+    }
+
+    .about-wie .content, .nbkrist-wie .content {
+        max-width: 100%;
+    }
+    section {
+    padding: 100px 30px;
+
+   }
+   .panel-section .team .member{
+    width:100%;
+   }
+   .main-header {
+    padding: 20px 0;
+}
+
+
+}
+
+
+@media (max-width: 400px) {
+    
+    .about-wie, .nbkrist-wie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-wie .logo img, .nbkrist-wie .logo img {
+        margin: 0 auto 20px;
+    }
+
+    .about-wie .content, .nbkrist-wie .content {
+        max-width: 100%;
+    }
+    section {
+    padding: 100px 30px;
+
+   }
+   .panel-section .team .member{
+    width:100%;
+   }
+   .main-header {
+    padding: 20px 0;
+}
+
+
+}
+
+/* Responsive styles for panel photos */
+@media (max-width: 1024px) and (min-width: 900px) {
+    .panel-section .team .member {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 899px) and (min-width: 700px) {
+    
+    .panel-section .team .member {
+        width: 150px;
+        margin-left:auto;
+    }
+}
+
+@media (max-width: 699px) and (min-width: 600px) {
+     .panel-section .team{
+        display: block;
+     }
+
+    .panel-section .team .member {
+        width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: 599px) and (min-width: 400px) {
+    .panel-section .team{
+        display: block;
+     }
+
+    .panel-section .team .member {
+        width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: 400px) {
+    .panel-section .team{
+        display: block;
+     }
+
+    .panel-section .team .member {
+        width: calc(100% - 40px);
+    }
+}
+
+
+/* Add this to your existing CSS file */
+
+.animate-on-scroll {
+    opacity: 0; /* Start with the elements hidden */
+    transform: translateY(100px); /* Adjust as needed */
+    transition: all 0.5s ease;
+}
+
+.animate-on-scroll.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slideInUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes slideInDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+/* Use the animate class for animations */
+.panel-section.animate .panel {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.panel-section .counselor.animate {
+    animation: slideInDown 1.5s ease-in-out;
+}
+
+.panel-section .team .member.animate {
+    animation: slideInUp 1.5s ease-in-out;
+}
+
+.about-wie .logo img.animate {
+    animation: slideInLeft 2s ease-in-out;
+}
+
+.main-header h1.animate {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Make sure all the animated elements have the .animate-on-scroll class */
+.panel-section, .panel-section .counselor, .panel-section .team .member, .about-wie .logo img, .main-header h1 {
+    opacity: 1; /* Initially hidden */
+}
+
+
+/*.about-wie::before,
+.cards-section::before,
+.nbkrist-wie::before,
+.panel-section::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    min-height: 50%;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1), transparent 70%);
+    z-index: 1;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
